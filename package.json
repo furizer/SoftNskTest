@@ -1,0 +1,38 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "Команды gulpfile.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "skizer",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-coffee": "^3.0.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.45.0"
+  },
+  "dependencies": {
+    "async": "^3.2.2",
+    "del": "^6.0.0",
+    "gulp-concat-css": "^3.1.0",
+    "postcss": "^8.4.5",
+    "uniqid": "^5.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skizer-slp/ForntPortfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skizer-slp/ForntPortfolio/issues"
+  },
+  "homepage": "https://github.com/skizer-slp/ForntPortfolio#readme"
+}
