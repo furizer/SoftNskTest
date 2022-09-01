@@ -1,0 +1,85 @@
+.form__wrapper
+    .container
+        .form__header
+            .form__title Оформление  <span> Заказа </span>
+            .form__text Перед заполнением формы ознакомьтесь с нашей схемой работы!
+        .form__steps 
+
+            .form__step
+                .form__step-icon
+                    img(src="./images/order-icon1.png")
+                .form__step-text Lorem ipsum dolor sit amet
+            .form__step_dots
+                span.form__step-dot
+                span.form__step-dot
+                span.form__step-dot
+                span.form__step-dot
+                span.form__step-dot
+
+            .form__step
+                .form__step-icon
+                    img(src="./images/order-icon2.png")
+                .form__step-text Сonsecteturadipiscing elit
+            .form__step_dots
+                span.form__step-dot
+                span.form__step-dot
+                span.form__step-dot
+                span.form__step-dot
+                span.form__step-dot
+
+            .form__step
+                .form__step-icon
+                    img(src="./images/order-icon3.png")
+                .form__step-text Sed do eiusmod tempor
+            .form__step_dots
+                span.form__step-dot
+                span.form__step-dot
+                span.form__step-dot
+                span.form__step-dot
+                span.form__step-dot
+
+            .form__step
+                .form__step-icon
+                    img(src="./images/order-icon4.png")
+                .form__step-text Esse cillum doloreeu fugiat
+            .form__step_dots
+                span.form__step-dot
+                span.form__step-dot
+                span.form__step-dot
+                span.form__step-dot
+                span.form__step-dot
+
+            .form__step
+                .form__step-icon
+                    img(src="./images/order-icon5.png")
+                .form__step-text Excepteur sint occaecat cupidatat non proident
+        form(action="#", method="post").form__main
+            div.form__main-row
+
+                include select.html
+
+                input(type="email" name="userEmail" placeholder="Ваш e-mail" required).form__main-input
+
+                input(type="text" name="userName" placeholder="Ваше имя" required).form__main-input
+
+            div.form__main-row
+                div.form__main-range-wrapper 
+                    div.form__main-descr Sed ut perspiciatis, unde omnis iste natus
+                    span(id="rs-present" class="form__main-range-label") 0%
+                    div.form__main-range
+                        input(id="rs-range-line" type="range" value="0" min="0" max="100" name="precent")
+                 
+                label.form__main-addFile
+                    div 
+                        img(src="./images/file.png",)
+                        span Прикрепить файл
+                    input(type="file", name="asdad" placeholder='asdad' )
+              
+
+            div.form__main-btn-wrapper
+                button(type="submit").btn.form__main-btn отправить  
+
+        
+
+
+

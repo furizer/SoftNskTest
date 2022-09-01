@@ -7,4 +7,23 @@ html(lang="ru")
         title Document
         link(rel='stylesheet', href='project.css')
     body 
-        header
+        header.header
+            .container
+                a(href="#").header__logo-wrapper
+                    img(src="./images/logo.png").header__logo
+                div.header__menu
+                    a(href="#").header__link.active Бизнес
+                    a(href="#").header__link О нас
+                    a(href="#").header__link Цены
+                    a(href="#").header__link Оформить заказ
+                div.header__burger
+                    div.header__burger-open
+                        span.line1.line
+                        span.line2.line
+                        span.line3.line
+            div.header__burger-list
+                a(href="#").header__link.active Бизнес
+                a(href="#").header__link О нас
+                a(href="#").header__link Цены
+                a(href="#").header__link Оформить заказ
+            

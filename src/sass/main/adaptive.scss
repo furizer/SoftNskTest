@@ -1,0 +1,239 @@
+@media (max-width: 1200px) {
+    .form__main-input {
+        max-width: 290px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .header .container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .header__link {
+        margin-right: 20px;
+        font-size: 12px;
+    }
+
+    .header__link:last-child {
+        margin-right: 10px;
+    }
+    .subheader__wrapper {
+        padding-bottom: 120px;
+    }
+
+
+    // .form__step_dots {
+    //     display: none;
+    // }
+    // .form__steps {
+    //     flex-wrap: wrap;
+    // }
+    .form__step-icon {
+        width: 90px;
+        height: 90px;
+    }
+
+    .form__step-dot:last-child {
+        display: none;
+    }
+
+    .form__main {
+        flex-direction: column;
+        display: flex;
+    }
+    .form__main-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .form__main-input, .form__main-select  {
+        max-width: 600px;
+    }
+
+    .form__main-addFile {
+        max-width: 600px;
+
+
+    }
+
+    .form__main-range-wrapper {
+        max-width: 600px;
+        margin-bottom: 30px;
+    }
+    .form__main-btn {
+        max-width: 600px;
+    }
+    .form__main-btn-wrapper {
+        margin-top: 20px;
+    }
+
+    .form__wrapper {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .footer {
+        padding-top: 15px;
+        padding-bottom: 13px;
+    }
+    .footer .container {
+        flex-direction: column;
+        .footer__item {
+            width: 100%;
+            justify-content: center;
+            border: none;
+        }        
+    }
+    .footer__item-pays {
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .footer__pay {
+        width: unset;
+        margin-right: 20px;
+
+    }
+    .footer__pay:last-child {
+        margin-right: 0;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .form__wrapper {
+        padding-top: 30px;
+        padding-bottom: 35px;
+    }
+
+
+    .form__steps {
+        margin-top: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    .form__step {
+        margin-bottom: 10px;
+    }
+    .form__step-text {
+        font-size: 13px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .form__step-icon {
+        width: 80px;
+        height: 80px;
+    }
+    .form__step_dots  {
+        top: -0.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .form__step-dot{
+        width: 5px;
+        height: 5px;
+        margin-bottom: 5px;
+    }    
+
+    
+    
+}
+
+@media (max-width: 600px) {
+    .form__title {
+        font-size: 22px;
+        line-height: inherit;
+        margin-bottom: 10px;
+    }
+    .form__text {
+        font-size: 17px;
+    }    
+    .header__burger-open {
+        display: block;
+    }
+
+    .header__logo-wrapper {
+        margin-right: 20px;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .subheader__wrapper {
+        background: none;
+        padding-top: 75px;
+        padding-bottom: 40px;
+
+    }
+    .subheader__title {
+        font-size: 22px;
+        line-height: inherit;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .subheader__info-title {
+        font-size: 17px;
+        text-align: center;
+    }
+    .subheader__info-row {
+        font-size: 14px;
+        text-align: center;
+    }
+    .subheader__btns {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: unset;
+    }
+    .subheader__info {
+        margin-bottom: 20px;
+    }
+    .subheader__makeorder-btn {
+        margin-bottom: 10px;
+    }
+    .form__main-descr {
+        font-size: 13px;
+    }
+
+    .footer__pay-text {
+        font-size: 10px;
+    }
+
+    .footer__contact-text {
+        font-size: 10px;
+        color: #C3C3C3;
+    }
+
+    .footer__copyright {
+        font-size: 10px;
+        color: #C3C3C3;
+    }
+
+    .footer__item-pays {
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .form__main-range-wrapper {
+        min-width:  unset;
+    }
+    .footer__pay-text {
+        margin-left: 3px;
+    }
+
+    .form__main-addFile {
+        span {
+            font-size: 13px;
+        }
+    }
+
+}
+
+@media (max-width: 360px) {
+    .form__main-descr {
+        font-size: 12px;
+    }
+}
